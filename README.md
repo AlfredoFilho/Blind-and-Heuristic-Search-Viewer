@@ -1,5 +1,7 @@
 # Search Algorithms Visualizer
 
+[Live Demo on GitHub Pages 🌐](https://alfredofilho.github.io/Blind-and-Heuristic-Search-Viewer/)
+
 This project provides a visual simulation of various search algorithms, including Breadth-First Search (BFS), Depth-First Search (DFS), Best-First Search, and A* Search. Users can interactively set start and end points, add obstacles, and observe how each algorithm finds a path on a grid.
 
 ## Features
