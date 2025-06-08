@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Search Algorithms Visualizer</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="icon" href="./assets/images/compass.png" type="image/svg+xml">
+</head>
+
+<body>
+
+  <h1>About Search Algorithms Visualizer</h1>
+
+  <div class="info-box">
+    <h3>Project Overview</h3>
+    <p>
+      This web application provides a visual representation of several common pathfinding search algorithms.
+      It's designed to help understand how these algorithms explore a grid to find a path from a starting point to an
+      ending point, while avoiding obstacles.
+    </p>
+
+    <h3>Algorithms Implemented</h3>
+    <ul>
+      <li>
+        <h4>Breadth-First Search (BFS)</h4>
+        <p>
+          BFS is an algorithm for traversing or searching tree or graph data structures. It starts at the tree root
+          (or some arbitrary node of a graph, sometimes referred to as a 'search key') and explores all of the neighbor
+          nodes at the present depth prior to moving on to the nodes at the next depth level. It is commonly used
+          to find the shortest path in unweighted graphs.
+        </p>
+      </li>
+      <li>
+        <h4>Depth-First Search (DFS)</h4>
+        <p>
+          DFS is an algorithm for traversing or searching tree or graph data structures. The algorithm starts at the
+          root (or arbitrarily chosen node) and explores as far as possible along each branch before backtracking.
+          It is often used for finding connected components.
+        </p>
+      </li>
+      <li>
+        <h4>Best-First Search</h4>
+        <p>
+          Best-First Search is a greedy search algorithm that explores a graph by expanding the most promising node
+          chosen according to a specified rule. It uses a heuristic function to estimate the cost from the current node
+          to the goal.
+        </p>
+      </li>
+      <li>
+        <h4>A* Search</h4>
+        <p>
+          A* Search is an informed search algorithm that finds the shortest path between a starting and a target
+          node in a weighted graph. It combines the features of Dijkstra's algorithm (which guarantees the shortest
+          path) and greedy best-first search (which is fast but not guaranteed to find the shortest path). A* uses a
+          heuristic function to estimate the distance to the goal, and a cost function to track the actual cost from the
+          start node.
+        </p>
+      </li>
+    </ul>
+
+    <h3>How to Use</h3>
+    <p>
+      On the main page, you can:
+    </p>
+    <ul>
+      <li><strong style="color: black">Select Start:</strong> Click the "🟠 Select Start" button and then click on a cell on the canvas to set the starting point.</li>
+      <li><strong style="color: black">Select End:</strong> Click the "🔵 Select End" button and then click on a cell on the canvas to set the ending point.</li>
+      <li><strong style="color: black">Add/Remove Block:</strong> Click the "❌ Add/Remove Block" button and then click on cells to create or remove obstacles.</li>
+      <li><strong style="color: black">Run Algorithms:</strong> Click on the buttons for "🧭 Start DFS", "📘 Start BFS", "🧠 Start Best-First", or "⭐ Start A\*" to see the respective algorithm in action.</li>
+      <li><strong style="color: black">Reset Board:</strong> Click the "🔄 Reset Board" button to clear the grid and start over.</li>
+    </ul>
+    <br>
+    <h3>Development</h3>
+    <p>
+      This project was developed using HTML, CSS, and JavaScript. The visualization is rendered on an HTML5 Canvas.
+      Each search algorithm is implemented in a separate JavaScript module for clarity and maintainability.
+    </p>
+
+    <h3>Credits</h3>
+    <div class="github-card" data-github="AlfredoFilho/Blind-and-Heuristic-Search-Viewer" data-width="100%" data-height="" data-theme="default"></div>
+    <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+
+    <p><a href="index.html">Back to Simulation</a></p>
+  </div>
+
+</body>
+
+</html>

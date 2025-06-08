@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search Algorithms</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <link rel="icon" href="./assets/images/compass.png" type="image/svg+xml">
+</head>
+
+<body>
+
+  <h1>Search Algorithms Test</h1>
+
+  <div class="controls">
+    <button id="btn-set-start">🟠 Select Start</button>
+    <button id="btn-set-end">🔵 Select End</button>
+    <button id="btn-set-block">❌ Add/Remove Block</button>
+    <button id="btn-reset">🔄 Reset Board</button>
+    <button id="btn-run-dfs">🧭 Start DFS</button>
+    <button id="btn-run-bfs">📘 Start BFS</button>
+    <button id="btn-run-bestfirst">🧠 Start Best-First</button>
+    <button id="btn-run-astar">⭐ Start A*</button>
+    <button id="btn-about" onclick="location.href='about.html'">ℹ️ Learn more about the algorithms</button>
+  </div>
+
+  <canvas id="canvas" width="665" height="539"></canvas>
+  <div class="info-box">
+    <h3>Simulation Information:</h3>
+    <ul>
+      <li><strong>Current Mode:</strong> <span id="currentMode">Start</span></li>
+      <li><strong>Start Node:</strong> <span id="startNodeDisplay"></span></li>
+      <li><strong>End Node:</strong> <span id="endNodeDisplay"></span></li>
+      <li><strong>Blocked Nodes:</strong> <span id="blockedNodesDisplay"></span></li>
+      <li><strong>Visited Nodes:</strong> <span id="visitedCountDisplay">0</span></li>
+    </ul>
+
+    <div id="log-container">
+      <h4>Algorithm Execution Log:</h4>
+      <button id="downloadLogBtn">⬇️ Download Log</button>
+      <div id="algorithmLog"></div>
+    </div>
+
+  </div>
+
+  <script type="module" src="./assets/js/main.js"></script>
+
+</body>
+
+</html>
