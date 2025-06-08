@@ -16,19 +16,9 @@ This project provides a visual simulation of various search algorithms, includin
 * **Path Reconstruction:** Once a path is found, it's highlighted on the grid.
 * **Simulation Information:** Displays current mode, start/end nodes, blocked nodes, and visited node count.
 
-## Algorithms Explained
+## Project Screenshot
 
-### Breadth-First Search (BFS)
-BFS is a graph traversal algorithm that explores all the neighbor nodes at the present depth level before moving on to the nodes at the next depth level. It guarantees the shortest path in an unweighted graph.
-
-### Depth-First Search (DFS)
-DFS is an algorithm for traversing or searching tree or graph data structures. The algorithm starts at the root (or arbitrarily chosen node) and explores as far as possible along each branch before backtracking.
-
-### Best-First Search
-Best-First Search is a greedy algorithm that explores the node that appears to be closest to the goal. It uses a heuristic function to estimate the distance to the target.
-
-### A\* Search
-A\* Search is an informed search algorithm that finds the shortest path between the start and end nodes. It combines the benefits of uniform-cost search and greedy best-first search by using both the cost to reach the current node (g-score) and the estimated cost from the current node to the end node (h-score - heuristic).
+![Search Algorithms Visualizer Screenshot](screenshot.png)
 
 ## How to Run
 
